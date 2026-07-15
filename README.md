@@ -1,21 +1,25 @@
 # Smart Task Manager
 
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-app-red)
+![License](https://img.shields.io/badge/license-educational-lightgrey)
+
 Smart Task Manager is a web-based task management application developed using **Python** and **Streamlit**. It helps users organize, track, and manage daily tasks through an interactive dashboard, analytics, and report generation.
 
 This project was developed as part of the **Python Programming Internship at DecodeLabs** to demonstrate Python fundamentals, data structures, CRUD (Create, Read, Update, Delete) operations, JSON file handling, and interactive web application development.
 
 ---
 
-# Project Overview
+## Project Overview
 
 Smart Task Manager provides a simple and efficient way to manage daily tasks. Users can create, edit, search, filter, complete, and delete tasks while tracking their progress through dashboards and analytics. All task data is stored permanently using JSON files.
 
 ---
 
-# Features
+## Features
 
-## Dashboard
-
+### Dashboard
 - View total tasks
 - View completed tasks
 - View pending tasks
@@ -24,8 +28,7 @@ Smart Task Manager provides a simple and efficient way to manage daily tasks. Us
 - View due date overview chart
 - Quick task statistics in the sidebar
 
-## Task Management
-
+### Task Management
 - Add new tasks
 - Edit existing tasks
 - Delete tasks
@@ -39,32 +42,28 @@ Smart Task Manager provides a simple and efficient way to manage daily tasks. Us
   - Overdue Tasks
 - Prevent duplicate task titles
 
-## Analytics
-
+### Analytics
 - View tasks by priority
 - View task completion status
 - Compare overdue and on-time tasks using charts
 
-## Export Report
-
+### Export Report
 - Display all tasks in a table
 - Download task reports as CSV files
 
-## About
-
+### About
 - View project information
 - View technologies used
 - View application features
 
-## Data Persistence
-
+### Data Persistence
 - Save tasks using JSON files
 - Automatically load saved tasks when the application starts
 - Store task creation, update, and completion timestamps
 
 ---
 
-# Objectives
+## Objectives
 
 - Develop an interactive task management application using Python and Streamlit.
 - Implement CRUD operations for task management.
@@ -74,7 +73,7 @@ Smart Task Manager provides a simple and efficient way to manage daily tasks. Us
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Python 3
 - Streamlit
@@ -83,7 +82,7 @@ Smart Task Manager provides a simple and efficient way to manage daily tasks. Us
 
 ---
 
-# Python Concepts Demonstrated
+## Python Concepts Demonstrated
 
 - Lists
 - Dictionaries
@@ -97,7 +96,7 @@ Smart Task Manager provides a simple and efficient way to manage daily tasks. Us
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 Smart-Task-Manager/
@@ -118,15 +117,14 @@ Smart-Task-Manager/
 
 ---
 
-# Installation
+## Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/LaibaMurtaza-21/DecodeLabs-Internship.git
+cd DecodeLabs-Internship
 ```
-
-Or download the project ZIP file.
 
 ### 2. Install Dependencies
 
@@ -144,7 +142,7 @@ The application will automatically open in your default web browser.
 
 ---
 
-# How to Use
+## How to Use
 
 1. Open the application.
 2. Go to **Add Task**.
@@ -160,7 +158,7 @@ The application will automatically open in your default web browser.
 
 ---
 
-# Sample Task Data
+## Sample Task Data
 
 | Task | Priority | Status |
 |------|----------|---------|
@@ -171,45 +169,29 @@ The application will automatically open in your default web browser.
 
 ---
 
-# Screenshots
+## Screenshots
 
-## Dashboard
-
+### Dashboard
 ![Dashboard](screenshots/dashboard.jpeg)
 
----
-
-## Add Task
-
+### Add Task
 ![Add Task](screenshots/add_task_page.jpeg)
 
----
-
-## Task Manager
-
+### Task Manager
 ![Task Manager](screenshots/task_manager_page.jpeg)
 
----
-
-## Analytics
-
+### Analytics
 ![Analytics](screenshots/analytics_page.jpeg)
 
----
-
-## Export Report
-
+### Export Report
 ![Export Report](screenshots/export_report_page.jpeg)
 
----
-
-## About
-
+### About
 ![About](screenshots/about_page.jpeg)
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
 - User authentication and login
 - Email reminders and notifications
@@ -221,7 +203,7 @@ The application will automatically open in your default web browser.
 
 ---
 
-# Learning Outcomes
+## Learning Outcomes
 
 This project helped in understanding:
 
@@ -235,7 +217,7 @@ This project helped in understanding:
 
 ---
 
-# Author
+## Author
 
 **Laiba Murtaza**
 
@@ -247,12 +229,12 @@ This project helped in understanding:
 
 ---
 
-# License
+## License
 
 This project was developed for educational and internship purposes under the **Python Programming Internship Program at DecodeLabs**.
 
 ---
 
-# Acknowledgements
+## Acknowledgements
 
 Special thanks to **DecodeLabs** for providing the opportunity and guidance to develop this project as part of the Python Programming Internship.
